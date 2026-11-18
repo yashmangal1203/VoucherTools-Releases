@@ -1,0 +1,9 @@
+[project]
+name = "vouchertools-release-maintenance"
+version = "0.1.0"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "tuf==7.0.1",
+    "securesystemslib[crypto]==1.6.0",
+    "packaging==26.3",
+]
